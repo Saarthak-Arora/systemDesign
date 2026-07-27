@@ -1,6 +1,7 @@
 #include "Appendlocation.hpp"
 #include <iostream>
 #include <string>
+using std::string;
 
 class AppendInConsole : public Appendlocation {
     private:
