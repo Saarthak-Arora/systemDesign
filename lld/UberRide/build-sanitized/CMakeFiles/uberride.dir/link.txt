@@ -1,2 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/ar qc libuberride.a CMakeFiles/uberride.dir/CalculateAmountService.cpp.o CMakeFiles/uberride.dir/Driver.cpp.o CMakeFiles/uberride.dir/FindNearestDriver.cpp.o CMakeFiles/uberride.dir/Location.cpp.o CMakeFiles/uberride.dir/Trip.cpp.o CMakeFiles/uberride.dir/User.cpp.o CMakeFiles/uberride.dir/Vehicle.cpp.o
-/Library/Developer/CommandLineTools/usr/bin/ranlib libuberride.a
