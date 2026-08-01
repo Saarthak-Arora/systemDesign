@@ -20,7 +20,8 @@ int main() {
 
     std::cout << trip.id() << ": " << std::fixed << std::setprecision(2) << trip.distanceKm()
               << " km, quoted " << trip.quotedAmount() << '\n';
-    if (const auto notified = trip.notifiedDrivers(); notified.empty()) {
+    std::vector<Driver*> notified = trip.notifiedDrivers();
+    if(notified.size() == 0) {
         std::cout << "No drivers available nearby.\n";
         return 0;
     }
